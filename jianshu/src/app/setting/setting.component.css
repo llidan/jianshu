@@ -1,0 +1,57 @@
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.back{
+  background-color: #F0F0F0;
+}
+.main{
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 20px;
+}
+.main_left{
+
+  height: 500px;
+  padding: 0;
+  position: fixed;
+
+}
+.main_right {
+  width: 65%;
+  height: 500px;
+  padding-top: 20px ;
+}
+.main_left ul{
+  list-style: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main_left ul li{
+  width: 280px;;
+  height: 50px;
+  border-radius: 5px;
+  line-height: 50px;
+  padding-left: 20px;
+  font-size: 15px;
+  box-sizing: border-box;
+
+}
+.main_left ul li:hover{
+  cursor: pointer;
+  background-color: #F0F0F0;
+}
+
+.main_left ul li a{
+  text-decoration: none;
+  color: #333333;
+}
+
+.main_right {
+  width: 65%;
+  height: 500px;
+  padding-top: 20px ;
+}

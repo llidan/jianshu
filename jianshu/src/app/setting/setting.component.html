@@ -1,0 +1,65 @@
+
+<div class="main">
+  <div class="main_left left">
+    <ul>
+      <li id="li1">
+
+        <a [routerLink]="['basic']" routerLinkActive="back">基础设置</a>
+      </li>
+      <li id="li2">
+        <a [routerLink]="" routerLinkActive="back">个人资料</a>
+      </li>
+      <li  id="li3">
+
+        <a [routerLink]="" routerLinkActive="back">微博认证</a>
+      </li>
+      <li id="li4">
+        <a [routerLink]="" routerLinkActive="back">黑名单</a>
+      </li>
+      <li id="li5">
+        <a [routerLink]="" routerLinkActive="back">赞赏设置</a>
+      </li>
+      <li id="li6">
+        <img src="../../assets/img/settings.png" height="33" width="33"/>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a [routerLink]="['misc']" routerLinkActive="back">账号管理</a>
+      </li>
+    </ul>
+  </div>
+  <div class="main_right right">
+    <router-outlet>
+
+    </router-outlet>
+
+  </div>
+
+
+</div>
+
+<!--<script>-->
+  <!--$(function () {-->
+    <!--var li=$(".main_left ul li");-->
+    <!--var Index=0;-->
+    <!--li.eq(Index).css("background","#F0F0F0").siblings().css("background","#fff");-->
+
+    <!--li.on('click',function(){-->
+      <!--Index= $(this).index();-->
+      <!--$(this).css("background","#F0F0F0").siblings().css("background","#fff");-->
+
+    <!--});-->
+    <!--li.on({-->
+
+      <!--mouseover:function(){-->
+        <!--$(this).css("background","#F0F0F0");-->
+      <!--},-->
+      <!--mouseout:function(){-->
+        <!--var INDEX=$(this).index();-->
+        <!--if(INDEX!=Index){-->
+          <!--$(this).css("background","#FFF");-->
+        <!--}-->
+        <!--// $(this).css("background","#fff");-->
+      <!--}-->
+    <!--});-->
+
+  <!--});-->
+<!--</script>-->

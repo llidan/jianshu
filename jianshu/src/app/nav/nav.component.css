@@ -1,0 +1,58 @@
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.header{
+  height: 40px;
+  width: 150px;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 1.3em;
+  text-align: center;
+  line-height: 40px;
+  color: #969696;
+}
+
+
+.header .register,.header .login{
+  height: 40px;
+  width: 60px;
+  /*color: #969696;*/
+  font-weight: 500;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header .register a{
+  height: 40px;
+  width: 60px;
+  /*color: #969696;*/
+  font-weight: 500;
+  color: #969696;
+  text-decoration: none;
+ }
+.header .login a{
+  height: 40px;
+  width: 60px;
+  /*color: #969696;*/
+  font-weight: 500;
+  color: #969696;
+  text-decoration: none;
+}
+a:hover{
+  border-bottom: solid 2px #EA6F5A;
+  text-decoration: none;
+  height: 40px;
+  width: 60px;
+  padding: 6px 13px;
+}
+.red{
+  height: 40px;
+  width: 60px;
+  padding: 6px 13px;
+  color: #EA6F5A !important;
+  border-bottom: solid 2px #EA6F5A;
+  font-weight: 700;
+}
+

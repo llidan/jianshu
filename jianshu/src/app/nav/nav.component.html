@@ -1,0 +1,20 @@
+<div class="header">
+  <div class="login left">
+    <a [routerLink]="['/login']" routerLinkActive="red">
+      登录
+    </a>
+  </div>
+  ▪
+  <div class="register right">
+    <a [routerLink]="['/regist']" routerLinkActive="red">
+      注册
+    </a>
+  </div>
+
+
+  <div>
+    <router-outlet>
+
+    </router-outlet>
+  </div>
+</div>

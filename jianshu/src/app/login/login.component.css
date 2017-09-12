@@ -1,0 +1,130 @@
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.bla{
+  width: 100%;
+  height: 750px;
+  background: #F1F1F1;
+  position: relative;
+}
+.logo{
+  width: 125px;
+  height: 65px;
+  position: absolute;
+  left: 40px;
+  top: 50px;
+  color: rgba(234, 111, 91, 0.86);
+  text-align: center;
+  line-height: 65px;
+  font-size: 3.3em;
+  font-weight: 500;
+}
+
+.main{
+  width: 400px;
+  height: 560px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 70px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 50px;
+}
+.header{
+  height: 40px;
+  width: 150px;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 1.3em;
+  text-align: center;
+  line-height: 40px;
+  color: #969696;
+}
+
+
+.bro_user,.bro_pass,.bro_tel{
+  width: 300px;
+  background-color: #f8f8f8;
+  border: solid 1px #d8d8d8;
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  color:#969696 ;
+}
+.bro_tel{
+  border-bottom: none;
+}
+.bro_user{
+  margin-top: 50px;
+  border-radius: 5px 5px 0 0;
+  border-bottom:none;
+}
+.bro_pass{
+  border-radius: 0 0 5px 5px;
+}
+.bro_user input,.bro_pass input,.bro_tel input{
+  margin-top: 3px;
+  margin-left: 10px;
+  border: none;
+  background-color: #f8f8f8;
+  color: #a0a0a0;
+  outline: none;
+}
+.check_btn{
+  margin-top: 30px;
+  float: left;
+}
+form a{
+  margin-top: 30px;
+  float: right;
+  text-decoration: none;
+}
+
+form>input {
+  margin-top: 30px;
+  width: 100%;
+  height: 45px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  background-color: #3194D0;
+}
+
+form>input:hover{
+  background-color: #187CB7;
+}
+.more_sign{
+  margin-top: 10px;
+  padding: 10px;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+.more_sign h6{
+  color: #b5b5b5;
+  font-size: 0.8em;
+  position: relative;
+}
+.more_sign h6:before,.more_sign h6:after{
+  content: '';                 /*CSS伪类用法*/
+  position: absolute;         /*定位背景横线的位置*/
+  top: 50%;
+  background: #b5b5b5;       /*宽和高做出来的背景横线*/
+  width: 20%;
+  height: 1px;
+}
+.more_sign h6:before{
+  left: 10%;
+}
+.more_sign h6:after{
+  right: 10%;
+}
+.more_sign>div{
+  margin-top: 20px;
+}
