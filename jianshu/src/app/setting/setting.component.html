@@ -2,28 +2,28 @@
 <div class="main">
   <div class="main_left left">
     <ul>
-      <li id="li1">
 
-        <a [routerLink]="['basic']" routerLinkActive="back">基础设置</a>
-      </li>
-      <li id="li2">
-        <a [routerLink]="" routerLinkActive="back">个人资料</a>
-      </li>
-      <li  id="li3">
+        <a [routerLink]="['basic']" routerLinkActive="back">
+          <li id="li1">基础设置</li></a>
 
-        <a [routerLink]="" routerLinkActive="back">微博认证</a>
-      </li>
-      <li id="li4">
-        <a [routerLink]="" routerLinkActive="back">黑名单</a>
-      </li>
-      <li id="li5">
-        <a [routerLink]="" routerLinkActive="back">赞赏设置</a>
-      </li>
-      <li id="li6">
-        <img src="../../assets/img/settings.png" height="33" width="33"/>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <a [routerLink]="['misc']" routerLinkActive="back">账号管理</a>
-      </li>
+        <a [routerLink]="" routerLinkActive="active">
+          <li id="li2">个人资料</li></a>
+
+        <a [routerLink]="" routerLinkActive="back">
+          <li  id="li3">微博认证</li></a>
+
+        <a [routerLink]="" routerLinkActive="back">
+          <li id="li4">黑名单</li></a>
+
+        <a [routerLink]="" routerLinkActive="back">
+          <li id="li5">赞赏设置</li></a>
+
+        <a [routerLink]="['misc']" routerLinkActive="back">
+          <li id="li6">
+            <img src="../../assets/img/settings.png" height="33" width="33"/>
+            &nbsp;账号管理
+          </li></a>
+
     </ul>
   </div>
   <div class="main_right right">

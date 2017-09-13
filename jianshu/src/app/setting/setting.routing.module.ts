@@ -20,6 +20,10 @@ const routes: Routes = [
       {
         path: 'misc',
         component: MiscComponent
+      },
+      {
+        path: '**',
+        component: BasicComponent
       }
     ]
   }
